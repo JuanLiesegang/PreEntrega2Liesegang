@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header"> <!-- Encabezado de la pagina--> 
+        <div class="logo"><img src="/images/Logo.png" alt="Logo"> </div>
+        <div class="navigation">
+            <nav>
+                <ul class="menu"> 
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="Integrantes.html">Equipo</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="background">
+        <section class="form">
+            <div class="titulo">
+                <h3>Relizanos tu Consulta</h3>
+            </div>
+
+            <div class="div_form">
+                <form>
+                    <label for="nombre">Nombre</label>
+                  
+                    <input type="text" id="nombre"/>
+               
+                    <label for="apellido">Apellido</label>
+                
+                    <input type="text" id="apellido"/>
+                  
+                    <label for="telefono">Telefono</label>
+                
+                    <input type="tel" id="telefono" placeholder="Ingresa tu Telefono" maxlength="10"/>
+                  
+                    <label for="mail">E-mail</label>
+                  
+                    <input type="email" id="mail" placeholder="Ingresa tu email">
+                 
+                    <label>Provinica</label>
+                  
+                 <select>
+                   <option selected="selected">Selecciona una Provincia</option>
+                   <option>Corrientes</option>
+                   <option>Entre Rios</option>
+                   <option> Chaco</option>
+                 </select> 
+                 
+                   <label>¿Ya nos conocias?</label>
+                  
+                   <span>Si</span>
+                   <input type="radio" name="answer">
+                   <span>No</span>
+                   <input type="radio" name="answer">  
+                  
+                   <label> ¿Quieres recibir informacion semanal?</label>
+                 
+                   <span>Si</span>
+                   <input type="checkbox" name="aceptar">
+                   <span>Acepto los terminos y condiciones</span>
+                   <input type="checkbox" name="aceptar"  checked="checked">
+                 
+                   <label for="Consulta">
+                   Deja tu consulta
+                   </label>
+                
+                   <textarea name="Consulta" id="Consulta" cols="30" rows="10"></textarea>
+                 
+                   <input type="submit">
+                   <input type="reset">
+               </form>
+            </div>
+       </section>
+    </main>
+    <footer class="padre_flex"> <!--Pie de Pagina-->
+        <div class="div_button">
+            <button>
+                <a href="/pages/Contacto.html">Contactanos</a>
+            </button>
+           
+        </div>
+        <div class="div_ubi">
+          <p class="texto_footer">Curuzu Cuatia, Corrientes.</p>
+        </div>
+        <div class="div_wha">
+            <a aria-label="Chat on WhatsApp" href="https://walink.co/8298ac"><img src="/images/whatsapp.png" alt="icono"
+           width="70px" height="70"></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
